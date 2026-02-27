@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function showName() {
+   var firstName;
+   var secondName;
+
+   firstName = prompt('Enter your First Name: ', '');
+   secondName = prompt('Enter your Second Name: ', '');
+   
+   // We add spaces inside quotes " " to separate the names
+   var outputMessage = "Your name is " + firstName + " " + secondName;
+   
+   alert(outputMessage);
+}
+</script>
+</head>
+
+<body>
+    <h1>Name Display</h1>
+    <p>Click the button to enter your name.</p>
+    <input type="button" value="Enter Name" onclick="showName()">
+</body>
+</html>

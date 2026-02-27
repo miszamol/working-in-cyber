@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function calculateDivision() {
+   var inputNum1;
+   var inputNum2;
+
+   inputNum1 = prompt('Enter the number to divide (numerator): ', 0);
+   inputNum2 = prompt('Enter the number to divide by (denominator): ', 0);
+   
+   // We use / for division
+   var outputTotal = inputNum1 / inputNum2;
+   
+   alert('The answer is: ' + outputTotal);
+}
+</script>
+</head>
+
+<body>
+    <h1>Dividing Numbers</h1>
+    <p>Click the button to enter two numbers.</p>
+    <input type="button" value="Divide" onclick="calculateDivision()">
+</body>
+</html>

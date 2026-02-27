@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function calculateAddition() {
+   var inputNum1;
+   var inputNum2;
+
+   inputNum1 = prompt('Enter the first number: ', 0);
+   inputNum2 = prompt('Enter the second number: ', 0);
+   
+   // We must convert the inputs to Numbers, otherwise 1 + 1 will equal 11 (text)
+   var outputTotal = Number(inputNum1) + Number(inputNum2);
+   
+   alert('The answer is: ' + outputTotal);
+}
+</script>
+</head>
+
+<body>
+    <h1>Adding Numbers</h1>
+    <p>Click the button to enter two numbers.</p>
+    <input type="button" value="Add" onclick="calculateAddition()">
+</body>
+</html>
